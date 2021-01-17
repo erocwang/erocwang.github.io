@@ -1,18 +1,22 @@
 - title: Nematode Path Finding Visualizer
   event: A Web App To Visualize Nematode Path Finding 
-  date: Fall 2020 - Current
+  date: November 2020 - Current
 
 - title: Mind Reading Machine
   event: A Web App To Test Human Input Randomness
-  date: Fall 2020 - Current
+  date: November 2020 - Current
 
 - title: Graphical Game Solver
   event: A QT App To Draw/Solve Extensive Form Games
-  date: Winter 2020 - Current
+  date: December 2020 - Current
 
 - title: Twitter ML Satire Bot
   event: Classifies/Generates Satirical Headlines!
-  date: Fall 2020
+  date: November 2020
+  
+- title: Local Seafood Suggestion 
+  event: A Web App to Search for Local Seafood 
+  date: January 2021 
 
 # - title: Flash Card Generator
 #   event: MLH Fellowship Explorer Sprint 1
