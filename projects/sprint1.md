@@ -1,5 +1,5 @@
 ---
-title: Sprint 1 Project
+title: Nematode Path Finding Visualizer
 layout: page
 ---
 
