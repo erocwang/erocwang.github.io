@@ -1,5 +1,5 @@
 ---
-title: Nematode Path Finding Visualizer
+title: Graphical Game Solver
 layout: page
 ---
 
