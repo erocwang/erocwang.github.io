@@ -1,5 +1,5 @@
 ---
-title: Nematode Path Finding Visualizer
+title: Mind Reading Machine
 layout: page
 ---
 
