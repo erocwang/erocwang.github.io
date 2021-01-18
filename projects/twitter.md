@@ -1,5 +1,5 @@
 ---
-title: Nematode Path Finding Visualizer
+title: Twitter ML Satire Bot
 layout: page
 ---
 
