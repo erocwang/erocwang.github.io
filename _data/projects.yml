@@ -9,6 +9,7 @@
 - title: Graphical Game Solver
   event: A QT App to Draw/Solve Extensive Form Games
   date: December 2020 - Current
+  page-name: graph.md
 
 - title: Twitter ML Satire Bot
   event: Classifies/Generates Satirical Headlines!
