@@ -5,16 +5,18 @@ layout: page
 
 ## Inspiration
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+In a low level programming class at school, we learned about Claude Shannon, who proposed that humans were not a good source of random information. He supported his theory with a by creating a series of machines called _mind readers_. Here I have created my own _mind reader_ which guesses binary user input (0/1, L/R, etc). 
 
 ## What it does
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The app pits the user against a bot which uses the user history to make educated guesses on the next input. The bot will receive a point if it guesses correctly, and the user will receive a point otherwise. 
 
-## How we built it
+## How I built it
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+The app is built with JavaScript and React. Essentially, the program will keep track of different lengths of user history and use that information to make a guess on the next input. Each substring predictor has a running accuracy percentage which the program uses to choose the best candidate to get a prediction from. 
 
-## Challenge we ran into
+## Challenge I ran into
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+It was difficult to keep track of user input with my current choice. Right now, the program uses multiple nested maps in order to keep track of substrings and predictors. This makes reading and generating more support code harder. In the future, the app will be improved using predictor classes instead of maps. 
+
+
