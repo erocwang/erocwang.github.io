@@ -15,6 +15,6 @@ The app lets the user visualize a nematode's path and search for a food source. 
 
 The app is built with JavaScript and React. Nodes are represented as small divs and the searching algorithm is implemented as a pseudo random search process. 
 
-## Challenge we ran into
+## Challenge I ran into
 
 As my first time with React and JavaScript, it was difficult at first to understand the syntax and framework but now I feel comfortable working with it. One issue with the algorithm is that sometimes the nematode will spend a lot of time searching more towards the food source. This is counterintuitive, but I haven't come up with an ideal solution. Essentially, the nematode will on average travel towards open nodes that are closer to the food sources. However, as it approaches the food source, the relative distances to the food source become more equal. As a result, the nematode gets more confused as it moves towards the source. 
