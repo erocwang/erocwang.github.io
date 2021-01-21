@@ -15,14 +15,17 @@
 - title: Twitter ML Satire Bot
   event: Classifies/Generates Satirical Headlines!
   date: November 2020
+  page-name: twitter.md
   
 - title: Local Seafood Suggester
   event: A Web App to Search for Local Seafood 
   date: January 2021 
+  page-name: seafood.md
 
 - title: Nutrition App 
   event: An App to Keep Track of Macronutrients
   date: January 2021 
+  page-name: nutrition.md
 
 # - title: Flash Card Generator
 #   event: MLH Fellowship Explorer Sprint 1
