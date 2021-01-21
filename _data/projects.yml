@@ -5,6 +5,7 @@
 - title: Mind Reading Machine
   event: A Web App to Test Human Input Randomness
   date: November 2020 - Current
+  page-name: mind.md
 
 - title: Graphical Game Solver
   event: A QT App to Draw/Solve Extensive Form Games
